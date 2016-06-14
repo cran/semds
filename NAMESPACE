@@ -1,0 +1,6 @@
+import("stats", "graphics", "pracma", "minpack.lm")
+export(semds)
+
+S3method(print, semds)
+S3method(plot, semds)
+S3method(summary, semds)

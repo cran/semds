@@ -1,0 +1,15 @@
+ff900f222cfa9051de2fc18978efb737 *DESCRIPTION
+0946ed389398ed27bea269b277ea446c *NAMESPACE
+b97a7b70df0c194851d4491bc917ce14 *R/FunConfigInicial3.R
+fa3d6bbe35061c6a17be31004c798533 *R/FunDispariSEM3.R
+c6977800fdca6063ef60e510330cce84 *R/ULS3.R
+14f448772bf422919ddcb6302f28794b *R/plot.semds.R
+96cc5f98b84fcbe12557ffe649d9a733 *R/print.semds.R
+bed7d20bfb09c0374ec9d95c1901c8ef *R/semds.R
+c6828c354cfe5dcdeb05f01264eaeb14 *R/summary.semds.R
+0e4cb90dc8d750cbeeed9a2f87aa3bbc *data/BrahmsNorm.rda
+11b0fd69dbe9705fad43fa05fb3371eb *data/Miller.rda
+d4a46c2caa35a61fda97ee7edcde93f2 *man/BrahmsNorm.Rd
+df0001c4fa26dfaa75d780514b29dea4 *man/Miller.Rd
+847558c2bfe31ebbd9b4d883ef8e3ad7 *man/semds-package.Rd
+9841a65076db2871d1424a2e5382eb42 *man/semds.Rd
