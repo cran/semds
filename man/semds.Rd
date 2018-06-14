@@ -53,7 +53,7 @@ Returns an object of class \code{"semds"} containing the following elements.
 \item{call}{Function call.}
 }
 \references{
-Vera, J. F. \& Rivera, C. D. (2014). A structural equation multidimensional scaling model
+Vera, J. F. & Rivera, C. D. (2014). A structural equation multidimensional scaling model
 for one-mode asymmetric dissimilarity data. Structural Equation Modeling: 
 A Multidisciplinary Journal, 21(1), 54--62. 
 }
