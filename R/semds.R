@@ -6,10 +6,13 @@ semds <- function(D, dim = 2, saturated = FALSE, theta0 = NULL, maxiter = 1000, 
   if (is.data.frame(D)) D <- as.matrix(D)
   if (is.matrix(D)) {                         ## asymmetric case
     if (nrow(D) == ncol(D)) {
-      d11 <- as.vector(D[lower.tri(D)])
+      nr <- nrow(D)
+      NN <- nr*(nr-1)/2
+      D <- D*sqrt(NN/sum(D^2))                
+      d11 <- as.vector(D[lower.tri(D)])       ## normalization
       d22 <- as.vector(t(D)[lower.tri(t(D))])
-      d11 <- normDissN(d11, 1, 1)                   ## normalization
-      d22 <- normDissN(d22, 1, 1)
+      #d11 <- normDissN(d11, 1, 1, NN)                   ## normalization
+      #d22 <- normDissN(d22, 1, 1, NN)
       D1 <- cbind(d11, d22)
       n <- ncol(D)
       cnames <- rownames(D)
@@ -22,8 +25,13 @@ semds <- function(D, dim = 2, saturated = FALSE, theta0 = NULL, maxiter = 1000, 
   }
   
   if (is.list(D)) {                          ## three-way case
+    nr <- dim(D[[1]])[1]
+    if (is.null(nr)) nr <- attr(D[[1]], "Size")
+    NN <- nr*(nr-1)/2
+    sumD2 <- sum(Reduce("+", lapply(D, function(dd) dd^2)))
+    D <- lapply(D, function(dd) dd*sqrt(NN/sumD2))            ## normalization
+    
     D1 <- sapply(D, function(dd) as.vector(as.dist(dd)))
-    D1 <- apply(D1, 2, normDissN, 1, 1)   ## normalization
     n <- ncol(as.matrix(D[[1]]))
     cnames <- rownames(as.matrix(D[[1]]))
   }

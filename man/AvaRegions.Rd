@@ -26,7 +26,9 @@ Contains dissimilarity matrices across mountain regions in British Columbia and 
  \item{\code{Wind}}{Wind slab}
 }
 }
-
+\references{
+Shandro, B., & Haegeli, P. (2018). Characterizing the nature and variability of avalanche hazard in western canada. Natural Hazards and Earth System Sciences, 18, 1141-1158.
+}
 \note{
 Thanks to Pascal Haegeli from SFU for sharing this dataset. 
 }
