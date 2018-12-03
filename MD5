@@ -1,4 +1,4 @@
-92a348082f4c80ef8e382b559f1957de *DESCRIPTION
+9ac114b89f0f0d73d0c4c24a1d659487 *DESCRIPTION
 0946ed389398ed27bea269b277ea446c *NAMESPACE
 b97a7b70df0c194851d4491bc917ce14 *R/FunConfigInicial3.R
 fa3d6bbe35061c6a17be31004c798533 *R/FunDispariSEM3.R
@@ -8,12 +8,16 @@ c6977800fdca6063ef60e510330cce84 *R/ULS3.R
 37f56ab3c3c89633776c236dd05cf286 *R/semds.R
 c6828c354cfe5dcdeb05f01264eaeb14 *R/summary.semds.R
 e3e6d9e877b2e43f8af54ec2032f9768 *data/AvaRegions.rda
-0e4cb90dc8d750cbeeed9a2f87aa3bbc *data/BrahmsNorm.rda
-11b0fd69dbe9705fad43fa05fb3371eb *data/Miller.rda
+ec4edea03fd30c086a7507c84d5424a3 *data/BrahmsNorm.rda
+abad7eac926d3fcf69ad0ee8809c883b *data/Miller.rda
+b10396ee9b7a0ab2cecada7728040a65 *data/Recreation.rda
 49e15bf33ca61317c394062ff41e5757 *data/SBanks2008D.rda
 3a076944ce353374a47d45a5642ce273 *data/SBanks2012D.rda
+c47995b4bfb20a9a08bfad871cad98f1 *data/Wang.rda
 063caf3e03aa55092304791a8d7d5ed1 *man/AvaRegions.Rd
-d4a46c2caa35a61fda97ee7edcde93f2 *man/BrahmsNorm.Rd
-df0001c4fa26dfaa75d780514b29dea4 *man/Miller.Rd
+39b62f958ae1c786ce35862997d727ee *man/BrahmsNorm.Rd
+93debe6bc5ff1966ad0751b80509b6ba *man/Miller.Rd
+94882118e674250533990ff902262134 *man/Recreation.Rd
 dc04360ff0980f7fcfd5c09a27c9e688 *man/SBanks2008D.Rd
-3b7b9bbf47fcdf8264c9d8ae58f8cadf *man/semds.Rd
+f78ab83939e091d189c595faf6856d30 *man/Wang.Rd
+9b92a19a3681503cd80515a5ca10c33b *man/semds.Rd

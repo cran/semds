@@ -1,6 +1,6 @@
 Package: semds
-Version: 0.9-5
-Date: 2018-06-15
+Version: 0.9-6
+Date: 2018-11-24
 Title: Structural Equation Multidimensional Scaling
 Authors@R: c(person("Patrick", "Mair", role = c("aut", "cre"), email = "mair@fas.harvard.edu"), person("Jose Fernando", "Vera", role = "aut", email = "jfvera@ugr.es"))
 Imports: graphics, stats, pracma, minpack.lm
@@ -12,9 +12,9 @@ LazyData: yes
 LazyLoad: yes
 ByteCompile: yes
 NeedsCompilation: yes
-Packaged: 2018-07-20 19:15:02 UTC; root
+Packaged: 2018-11-24 16:15:02 UTC; root
 Author: Patrick Mair [aut, cre],
   Jose Fernando Vera [aut]
 Maintainer: Patrick Mair <mair@fas.harvard.edu>
 Repository: CRAN
-Date/Publication: 2018-07-21 17:42:22 UTC
+Date/Publication: 2018-12-03 14:48:07 UTC

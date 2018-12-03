@@ -4,13 +4,10 @@
 \alias{plot.semds}
 \alias{summary.semds}
 \title{
-Structural Equation Multidimensional Scaling. 
+Structural Equation Multidimensional Scaling 
 }
 \description{
-Fits a multidimensional scaling (MDS) model for multi-way one-mode asymmetric dissimilarity data. 
-It uses an alternating estimation procedure in which the unknown symmetric dissimilarity 
-matrix is estimated in a structural equation modeling (SEM) framework while the objects are 
-represented in a low-dimensional space.
+Fits a multidimensional scaling (MDS) model on asymmetric dissimilarity data and three-way data. It uses an alternating estimation procedure in which the unknown symmetric dissimilarity matrix is estimated in a structural equation modeling (SEM) framework while the objects are represented in a low-dimensional space.
 }
 \usage{
 semds(D, dim = 2, saturated = FALSE, theta0 = NULL, maxiter = 1000, eps = 1e-06)
@@ -18,8 +15,7 @@ semds(D, dim = 2, saturated = FALSE, theta0 = NULL, maxiter = 1000, eps = 1e-06)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{D}{
-A list of input dissimilarity matrices for the general multiway case. For the special 2-way case it can also be a 
-single asymmetric dissimilarity matrix.
+A list of input dissimilarity matrices for the general multiway case. For the special 2-way case it can also be a single asymmetric dissimilarity matrix.
 }
   \item{dim}{
 Number of dimensions for MDS solution.
@@ -53,12 +49,10 @@ Returns an object of class \code{"semds"} containing the following elements.
 \item{call}{Function call.}
 }
 \references{
-Vera, J. F. & Rivera, C. D. (2014). A structural equation multidimensional scaling model
-for one-mode asymmetric dissimilarity data. Structural Equation Modeling: 
-A Multidisciplinary Journal, 21(1), 54--62. 
+Vera, J. F. & Rivera, C. D. (2014). A structural equation multidimensional scaling model for one-mode asymmetric dissimilarity data. Structural Equation Modeling: A Multidisciplinary Journal, 21(1), 54--62. 
 }
 \author{
-Patrick Mair, Jose Fernando Vera.
+Patrick Mair, Jose Fernando Vera
 }
 
 \examples{

@@ -3,19 +3,13 @@
 \docType{data}
 \title{Perceptual Confusion Data}
 \description{
-Miller and Nicely (1955) data of perceptual confusions between 16 English consonant phonemes.
-In this test, female subjects listened to female speakers reading consonant-vowel syllables formed by pairing the consonants with the
-vowel "a" (as in father), and the subjects were required to write down the consonant they heard after each syllable was
-spoken. The confusions or errors of identification matrices were compiled under 17 different experimental conditions.
-The first four 16 x 16 tables given summarize the data obtained when noise-masking conditions produced varying
-speech-to-noise (S/N) ratios, with the addition of random noise at different levels.
-The original similarities were transformed into dissimilarities by considering the normalization procedure described
+Miller and Nicely (1955) data of perceptual confusions between 16 English consonant phonemes.In this test, female subjects listened to female speakers reading consonant-vowel syllables formed by pairing the consonants with the vowel "a" (as in father), and the subjects were required to write down the consonant they heard after each syllable was spoken. The confusions or errors of identification matrices were compiled under 17 different experimental conditions.
+The first four 16 x 16 tables given summarize the data obtained when noise-masking conditions produced varying speech-to-noise (S/N) ratios, with the addition of random noise at different levels. The original similarities were transformed into dissimilarities by considering the normalization procedure described
 by Hubert (1972) for this data set.
 }
 \usage{data(Miller)}
 \format{
-  An asymmetric dissimilarity matrix. "th1" refers to the "th" as in "thy"; "th2" to the "th" as in "thigh"; "ti" refers to the 
-  "ti" as in "dilution".
+  An asymmetric dissimilarity matrix. "th1" refers to the "th" as in "thy"; "th2" to the "th" as in "thigh"; "ti" refers to the "ti" as in "dilution".
 }
 
 \references{
