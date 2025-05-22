@@ -11,7 +11,7 @@ Ten subjects were asked to judge differences, in terms of his/her own preference
 }
 
 \references{
-Ramsay (1997). 
+Ramsay, J. O. (1978). MULTISCALE: Four programs for multidimensional scaling by the method of maximum likelihood. Chicago: National Educational Resources, Inc. 
 }
 \examples{
 data(Recreation)
